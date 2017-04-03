@@ -1,0 +1,31 @@
+{
+  "name": "stratoscale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "author": "Aviad Gispan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.1.10",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "image-webpack-loader": "^3.2.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.0-rc.0"
+  },
+  "dependencies": {
+    "image-promise": "^5.0.0",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  }
+}

@@ -1,0 +1,29 @@
+.btn{
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  &-paint {
+    @extend .btn;
+    background-color: #337ab7;
+  }
+  &-random {
+    @extend .btn;
+    background-color: #cc0000;
+  }
+}
+.input-wall{
+  padding: 10px 16px;
+  margin: 8px 0;
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.water-volume {
+  margin: 12px 0px;
+  font: 18px arial, sans-serif;
+}
